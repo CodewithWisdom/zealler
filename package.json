@@ -1,0 +1,17 @@
+{
+  "name": "zealler",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "npm.cmd run dev --workspace=apps/web",
+    "mobile": "npm.cmd run start --workspace=apps/mobile"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.48.0"
+  }
+}
